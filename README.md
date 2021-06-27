@@ -1,2 +1,11 @@
 # MemoPIze Android Application
- 
+ This respository contains the source code for my Android Application: Memo'PI'ze. It has all the files neccesary for the application to be designed and run.
+
+## The repository is ordered as follows:
+
+1. [Source Code for the Application (.java)](https://github.com/muntasir-hossain314159/MemoPIze-Android-Application/tree/main/app/src/main/java/com/application/MemoPIze)
+2. [Layout of the Application (.xml)](https://github.com/muntasir-hossain314159/MemoPIze-Android-Application/tree/main/app/src/main/res/layout)
+3. [Drawables (.png)](https://github.com/muntasir-hossain314159/MemoPIze-Android-Application/tree/main/app/src/main/res/drawable)
+
+## Copyright Information
+Please contact Ahmed Muntasir Hossain (ahoss1@unh.newhaven.edu) for permission to use my application.
