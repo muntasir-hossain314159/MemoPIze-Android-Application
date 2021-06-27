@@ -8,4 +8,4 @@
 3. [Drawables (.png)](https://github.com/muntasir-hossain314159/MemoPIze-Android-Application/tree/main/app/src/main/res/drawable)
 
 ## Copyright Information
-Please contact Ahmed Muntasir Hossain (ahoss1@unh.newhaven.edu) for permission to use my application.
+This application is licensed under MIT License.
