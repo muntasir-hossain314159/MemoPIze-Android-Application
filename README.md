@@ -1,5 +1,5 @@
 # MemoPIze Android Application
- This respository contains the source code for my Android Application: Memo'PI'ze. It has all the files neccesary for the application to be designed and run.
+ This repository contains the source code for my Android Application: Memo'PI'ze. It has all the files neccesary for the application to be designed and run.
 
 ## The repository is ordered as follows:
 
