@@ -180,6 +180,9 @@ public class ThousandDigits extends AppCompatActivity {
             public void onClick(View v) {
                 if(count < 1001)
                 {
+                    speechHandler.removeCallbacks(speechRunnable);
+                    handler.removeCallbacks(runnable);
+
                     count++;
                     if(count == 1)
                         placeValueText.setText("Decimal");
@@ -187,6 +190,11 @@ public class ThousandDigits extends AppCompatActivity {
                         placeValueText.setText("Digit Number: " + count);
 
                     thousandDigit.setText(String.valueOf(thousandDigitsOfPi[count]));
+                    if(flag)
+                    {
+                        speechHandler.post(speechRunnable);
+                        handler.postDelayed(runnable, 1000);
+                    }
                 }
             }
         });
@@ -194,9 +202,18 @@ public class ThousandDigits extends AppCompatActivity {
         reset.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                speechHandler.removeCallbacks(speechRunnable);
+                handler.removeCallbacks(runnable);
+
                 placeValueText.setText("Digit Number: 1");
                 thousandDigit.setText("3");
                 count = 0;
+
+                if(flag)
+                {
+                    speechHandler.post(speechRunnable);
+                    handler.postDelayed(runnable, 1000);
+                }
             }
         });
 
@@ -204,6 +221,9 @@ public class ThousandDigits extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (count > 0) {
+                    speechHandler.removeCallbacks(speechRunnable);
+                    handler.removeCallbacks(runnable);
+
                     count--;
                     if (count == 0)
                         placeValueText.setText("Digit Number: 1");
@@ -213,6 +233,11 @@ public class ThousandDigits extends AppCompatActivity {
                         placeValueText.setText("Digit Number: " + count);
 
                     thousandDigit.setText(String.valueOf(thousandDigitsOfPi[count]));
+                    if(flag)
+                    {
+                        speechHandler.post(speechRunnable);
+                        handler.postDelayed(runnable, 1000);
+                    }
                 }
             }
         });
@@ -222,6 +247,9 @@ public class ThousandDigits extends AppCompatActivity {
             public void onClick(View v) {
                 if (count <= 991)
                 {
+                    speechHandler.removeCallbacks(speechRunnable);
+                    handler.removeCallbacks(runnable);
+
                     if (count == 0)
                         count += 11;
                     else
@@ -235,6 +263,11 @@ public class ThousandDigits extends AppCompatActivity {
                         placeValueText.setText("Digit Number: " + count);
 
                     thousandDigit.setText(String.valueOf(thousandDigitsOfPi[count]));
+                    if(flag)
+                    {
+                        speechHandler.post(speechRunnable);
+                        handler.postDelayed(runnable, 1000);
+                    }
                 }
             }
         });
@@ -244,6 +277,9 @@ public class ThousandDigits extends AppCompatActivity {
             public void onClick(View v) {
                 if (count >= 11)
                 {
+                    speechHandler.removeCallbacks(speechRunnable);
+                    handler.removeCallbacks(runnable);
+
                     if (count == 11)
                         count -= 11;
                     else
@@ -257,6 +293,11 @@ public class ThousandDigits extends AppCompatActivity {
                         placeValueText.setText("Digit Number: " + count);
 
                     thousandDigit.setText(String.valueOf(thousandDigitsOfPi[count]));
+                    if(flag)
+                    {
+                        speechHandler.post(speechRunnable);
+                        handler.postDelayed(runnable, 1000);
+                    }
                 }
             }
         });
