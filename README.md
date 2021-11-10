@@ -2,7 +2,7 @@
  This repository contains the source code for my Android Application: Memo'PI'ze. It has all the files neccesary for the application to be designed and run.
  
 ## Home Screen
-<img src = "./Screenshots/Index.jpg">
+<img src = "./Screenshots/Home Screen.jpg">
 
 ## 101 Digits of PI
 <img src = "./Screenshots/101 Digits of Pi.jpg">
