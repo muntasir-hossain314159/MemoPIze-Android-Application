@@ -8,7 +8,7 @@
 <img src = "./Screenshots/101 Digits of Pi.jpg">
 
 ## 1001 Digits of PI
-<img src = "./Screenshots/1001 Digits of Pi.jpg">
+<img src = "./Screenshots/1001 Digits of Pi.png">
 
 ## 10001 Digits of PI
 <img src = "./Screenshots/10001 Digits of Pi.jpg">
