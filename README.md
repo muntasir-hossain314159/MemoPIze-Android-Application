@@ -1,5 +1,6 @@
 # MemoPIze Android Application
- This repository contains the source code for my Android Application: Memo'PI'ze. It has all the files neccesary for the application to be designed and run.
+ This repository contains the source code for my Android Application: Memo'PI'ze. It has all the files neccesary for the application to be designed and run. <br>
+ Download the app here: [Memo'PI'ze](https://play.google.com/store/apps/details?id=com.application.MemoPIze&fbclid=IwAR0HE0ULf2Mjj6dkjr8xcfrxbW0HuSn3L1cifFspxHRxmLv3NGPLoTO2FE0) 
  
 ## Home Screen
 <img src = "./Screenshots/Home Screen.png">
